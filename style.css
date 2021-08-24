@@ -1,0 +1,121 @@
+html{
+
+}
+
+img{
+    max-width: 100%;
+}
+/* header sction */
+.header{
+    background-color: #0F1244;
+    color: #fff;
+}
+
+.header-img img {
+	width: 70px;
+	height: auto;
+	margin-top: 7px;
+}
+.header-menu{
+    
+    text-align: right;
+}
+.header-menu ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+.header-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+    
+}
+.header-menu ul li a{
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0 20px;
+    color: #fff;
+    line-height: 52px;
+    transition: .5s;
+}
+.header-menu ul li a:hover{
+    background-color: aqua;
+}
+
+/* banner section */
+.banner{
+    background-image: url(./img/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 0;
+    color: #fff;
+}
+
+.banner-text h2{
+    width: 400px;
+    margin: auto;
+    
+}
+.banner-text p{
+    width: 700px;
+    margin: 30px auto;
+
+}
+
+/* slaider section */
+
+.slaider{
+    background-color: #B9C0F0;
+}
+
+.team-all{
+    padding: 80px 0;
+}
+
+.team-text{
+    padding-bottom: 40px;
+}
+
+.slaider-img p{
+    width: 170px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.slaider-img h3{
+    font-size: 20px;
+    padding-top: 10px;
+}
+/* about section */
+
+
+.about{
+    background-color: #C0D4E9;
+}
+
+
+
+
+
+
+.about-me h3{
+    font-size: 20px;
+}
+
+.about-img{
+    padding-bottom: 10px;
+}
+
+
+/* contact section */
+.contact{
+    background-color: #F5F5F5;
+}
+
+
+/* footer */
+.footer{
+    background-color: #005FCE;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+}
